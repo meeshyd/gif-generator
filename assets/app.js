@@ -41,7 +41,7 @@ $(document).on("click", ".gif-button", displayGifs);
 function displayGifs() {
 	$gifContainer.empty();
 	var seinfeldTerm = $(this).attr("seinfeld-term")
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q="+seinfeldTerm+"&api_key=dc6zaTOxFJmzC&limit=10"
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q="+seinfeldTerm+"&api_key=dc6zaTOxFJmzC&limit=10"
 
 	$.ajax({
 		url: queryURL,
