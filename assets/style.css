@@ -1,0 +1,49 @@
+body {
+	margin: 0 auto;
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	background-image: url(triangles.svg);
+	background-repeat: repeat;
+}
+
+h1 {
+	color: red;
+	text-shadow: .03em .03em 0 #000;
+	font-size: 40px;
+}
+
+button, #add-gif {
+	margin: 5px;
+	font-family: 'PT Serif', serif;
+	text-decoration: none;
+	border: dotted 1px #000;
+	background-color: #fff;
+}
+
+form {
+	margin: 30px;
+	float: right;
+	width: 20%;
+	padding: 0 20px 0 0;
+}
+
+#gif-container {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.gif {
+	cursor: pointer;
+}
+
+.gif-div {
+	vertical-align: center;
+	display: block;
+}
+
+.gif-div p {
+	text-align: left;
+}

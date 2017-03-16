@@ -7,19 +7,21 @@
 	<title>SEINFELD GIF GENERATOR</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 </head>
 <body>
-	<div id="header"></div>
-	<div id="buttons-div"></div><br><br><br>
+	<div id="header">
+		<h1>Seinfeld Gif Generator</h1>
+	</div>
+	<div id="buttons-div"></div>
 
 	<form id="gif-form">
-		<label for="gif-input">Create a new Seinfeld Button</label><br>
-		<input type="text" id="gif-input" onfocus="if(this.value == 'festivus') { this.value = ''; }" placeholder="festivus"><br>
+		<label for="gif-input">Create a new Seinfeld Button</label><br><br>
+		<input type="text" id="gif-input" onfocus="if(this.value == 'festivus') { this.value = ''; }" placeholder="festivus">
 		<input id="add-gif" type="submit" value="Create Button">
 	</form>
 
 	<div id="gif-container"></div>
-
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="assets/app.js"></script>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cl="http://www.colourlovers.com/" version="1.1" x="0px" y="0px" cl:filetype="pattern" cl:seamlessversion="2.0" cl:clientversion="1.1.2" cl:target="web" cl:c1="13421772" cl:c2="10066329" cl:c3="6710886" cl:c4="3355443" cl:c5="0" width="200px" height="200px">
+<defs>
+<clipPath id="canvasClip">
+<rect x="0" y="0" width="200" height="200"/>
+</clipPath>
+</defs>
+<g id="wrapper" style="clip-path:url(#canvasClip)">
+<rect x="0" y="0" width="200" height="200" fill="#FEFFA4" id="background"/>
+<g cl:shapetype="customshape" stroke-width="0" fill="#333333" stroke="#333333" cl:layername="U2hhcGUgMQ==">
+<g transform="matrix(44.65 32.56 -32.52 44.6 166.7 160.4)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#333333" fill="#333333"/>
+</g>
+</g>
+<g transform="matrix(44.69 32.64 -32.58 44.66 -33.3 160.4)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#333333" fill="#333333"/>
+</g>
+</g>
+</g>
+<g cl:shapetype="customshape" stroke-width="0" fill="#7DE6FE" stroke="#7DE6FE" cl:layername="U2hhcGUgMSAoY29weSk=">
+<g transform="matrix(44.58 32.5 -32.46 44.54 166.7 157.4)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#7DE6FE" fill="#7DE6FE"/>
+</g>
+</g>
+<g transform="matrix(44.58 32.5 -32.46 44.54 -33.3 157.4)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#7DE6FE" fill="#7DE6FE"/>
+</g>
+</g>
+</g>
+<g cl:shapetype="customshape" stroke-width="0" fill="#333333" stroke="#333333" cl:layername="U2hhcGUgMSAoY29weSk=">
+<g transform="matrix(-22.82 50.55 -65.08 -28.71 85.25 69.45)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#333333" fill="#333333"/>
+</g>
+</g>
+</g>
+<g cl:shapetype="customshape" stroke-width="0" fill="#7DFFE7" stroke="#7DFFE7" cl:layername="U2hhcGUgMSAoY29weSAyKQ==">
+<g transform="matrix(-22.79 50.49 -65.01 -28.66 88.25 69.45)">
+<g transform="matrix(0.005280000000000001 0 0 0.005280000000000001 -0.5 -0.4)">
+<polygon points="0,163.744 94.537,0 189.074,163.744   " stroke-width="0" stroke="#7DFFE7" fill="#7DFFE7"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
