@@ -4,15 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ALL THE CATS</title>
+	<title>SEINFELD GIF GENERATOR</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
+	<div id="header"></div>
+	<div id="buttons-div"></div><br><br><br>
 
+	<form id="gif-form">
+		<label for="gif-input">Create a new Seinfeld Button</label><br>
+		<input type="text" id="gif-input" onfocus="if(this.value == 'festivus') { this.value = ''; }" placeholder="festivus"><br>
+		<input id="add-gif" type="submit" value="Create Button">
+	</form>
+
+	<div id="gif-container"></div>
 
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="assets.app.js"></script>
+	<script type="text/javascript" src="assets/app.js"></script>
 </body>
 </html>
