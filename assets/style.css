@@ -1,25 +1,62 @@
+/*GENERAL*/
+html {
+	height: 100%;
+}
+
 body {
 	margin: 0 auto;
 	font-family: 'PT Serif', serif;
 	text-align: center;
 	background-image: url(triangles.svg);
 	background-repeat: repeat;
+	display: flex;
+  	flex-direction: column;
+  	min-height: 100%;
 }
 
 h1 {
-	color: red;
+	color: #ff0000;
 	text-shadow: .03em .03em 0 #000;
-	font-size: 40px;
+	font-size: 50px;
+	line-height: 50px;
 }
 
+footer {
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#content-container {
+	flex: 1;
+	padding-bottom: 20px;
+}
+
+/*BUTTON CSS*/
 button, #add-gif {
 	margin: 5px;
 	font-family: 'PT Serif', serif;
 	text-decoration: none;
 	border: dotted 1px #000;
 	background-color: #fff;
+	font-size: 15px;
 }
 
+:focus {
+	outline: none;
+}
+
+button:focus, button:hover, #add-gif:hover, button:active {
+    outline: none;
+    background-color: #44ffdf;
+    border-color: #0077ff;
+}
+
+/*FORM CSS*/
+input {
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+}
 form {
 	margin: 30px;
 	float: right;
@@ -27,6 +64,7 @@ form {
 	padding: 0 20px 0 0;
 }
 
+/*GIF CSS*/
 #gif-container {
 	float: right;
 	margin: 0 auto;
@@ -42,8 +80,17 @@ form {
 .gif-div {
 	vertical-align: center;
 	display: block;
+	padding-top: 30px;
 }
 
 .gif-div p {
 	text-align: left;
+	margin: 0
 }
+
+
+@media only screen and (max-width: 750px) {
+	form, #gif-container {
+		float: none;
+		width: 90%;
+	}

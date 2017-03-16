@@ -13,15 +13,22 @@
 	<div id="header">
 		<h1>Seinfeld Gif Generator</h1>
 	</div>
-	<div id="buttons-div"></div>
+	<div id="content-container">
+		<div id="buttons-div"></div>
 
-	<form id="gif-form">
-		<label for="gif-input">Create a new Seinfeld Button</label><br><br>
-		<input type="text" id="gif-input" onfocus="if(this.value == 'festivus') { this.value = ''; }" placeholder="festivus">
-		<input id="add-gif" type="submit" value="Create Button">
-	</form>
+		<form id="gif-form">
+			<label for="gif-input">Create a new Seinfeld Button</label><br><br>
+			<input type="text" id="gif-input" onfocus="if(this.value == 'festivus') { this.value = ''; }" placeholder="festivus">
+			<input id="add-gif" type="submit" value="Create Button">
+		</form>
 
-	<div id="gif-container"></div>
+		<div id="gif-container"></div>
+	</div>
+	<footer>
+		<p>&copy; Michelle Didier</p><br>
+		<img src="assets/giphy.png">
+
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="assets/app.js"></script>
