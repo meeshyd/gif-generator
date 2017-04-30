@@ -2,6 +2,7 @@
 
 This dynamic webpage uses the GIPHY API to populate Seinfeld-themed gifs.
 
+[See it in action!](https://gif-fun.herokuapp.com/)
 
 ### How it works
 
@@ -14,3 +15,15 @@ This dynamic webpage uses the GIPHY API to populate Seinfeld-themed gifs.
    * This data is provided by the GIPHY API.
 
 4. The page also features a form that takes in user input and creates a button. The button will operate as the other buttons, displaying gif images related to the user input.
+
+## Technologies Used
+- JavaScript
+- jQuery
+- Bootstrap
+- Google Fonts API
+- [GIPHY API](https://api.giphy.com/)
+- Pattern created on [COLOURlovers](http://www.colourlovers.com/lover/meeshyd)
+
+## License
+
+### Copyright 2017 Northwestern University Coding Bootcamp - Michelle Didier
