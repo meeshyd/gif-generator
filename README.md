@@ -1,6 +1,7 @@
 # gif-generator
 
-###this dynamic webpage uses the GIPHY API to populate Seinfeld-themed gifs.
+This dynamic webpage uses the GIPHY API to populate Seinfeld-themed gifs.
+
 
 ### How it works
 
